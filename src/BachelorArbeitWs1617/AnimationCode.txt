@@ -1,0 +1,44 @@
+
+  text "Animation-Name" "Abstrakter Datentyp - CircularBuffer: Read - Write" (25, 30) color (0, 0, 0) depth 1 font SansSerif size 12
+  rectangle "NamensFeld" (20, 20) (350, 50) color (0, 0, 0) depth 1
+}
+{
+  codegroup "sourceCode" at (20, 100) color (0, 0, 0) highlightColor (255, 0, 0) contextColor (0, 0, 255) font Arial size 12 depth 1
+  codegroup "SourceCode3" at (620, 100) color (0, 0, 0) highlightColor (255, 0, 0) contextColor (0, 0, 255) font Arial size 12 depth 1
+  addCodeLine "public boolean write(T value) { " to "sourceCode"
+  addCodeLine "if (isFull) {" to "sourceCode"
+  addCodeLine "return false;" to "sourceCode"
+  addCodeLine "}" to "sourceCode"
+  addCodeLine "ringBuffer.add(writePos, value);" to "sourceCode"
+  addCodeLine "writePos++;" to "sourceCode"
+  addCodeLine "writePos = writePos % size;" to "sourceCode" indentation 2
+  addCodeLine "isEmpty = false;" to "sourceCode"
+  addCodeLine "if (writePos == readPos) {" to "sourceCode"
+  addCodeLine "isFull = true;" to "sourceCode"
+  addCodeLine "}" to "sourceCode"
+  addCodeLine "return true;" to "sourceCode"
+  addCodeLine "}" to "sourceCode"
+  addCodeLine "public T read() {" to "SourceCode3"
+  addCodeLine "if (isEmpty) {" to "SourceCode3"
+  addCodeLine "return null;" to "SourceCode3"
+  addCodeLine "}" to "SourceCode3"
+  addCodeLine "T temp = ringBuffer.get(readPos);" to "SourceCode3"
+  addCodeLine "readPos++;" to "SourceCode3"
+  addCodeLine "readPos = readPos % size;" to "SourceCode3" indentation 2
+  addCodeLine "isFull = false;" to "SourceCode3"
+  addCodeLine "if (writePos == readPos) {" to "SourceCode3"
+  addCodeLine "}" to "SourceCode3"
+  addCodeLine "return temp;" to "SourceCode3"
+  addCodeLine "}" to "SourceCode3"
+}
+{
+  circle "BufferOuter" (550, 325) radius 20 color (0, 0, 0) depth 1
+  circle "Circle1" (512, 403) radius 20 color (0, 0, 0) depth 1
+  circle "Circle2" (427, 422) radius 20 color (0, 0, 0) depth 1
+  circle "Circle3" (359, 368) radius 20 color (0, 0, 0) depth 1
+  circle "Circle4" (359, 281) radius 20 color (0, 0, 0) depth 1
+  circle "Circle5" (427, 227) radius 20 color (0, 0, 0) depth 1
+  circle "Circle6" (512, 246) radius 20 color (0, 0, 0) depth 1
+  circle "Circle7" (550, 325) radius 20 color (255, 200, 0) depth 1
+}
+

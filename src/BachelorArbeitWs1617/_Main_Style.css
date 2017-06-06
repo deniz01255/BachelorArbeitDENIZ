@@ -1,0 +1,62 @@
+body {
+    text-align: left;
+    font-family: "Helvetica Neue";
+    color: black;
+
+}
+
+h1 {
+
+    text-decoration: underline;
+}
+
+p{
+
+}
+
+
+._headline{
+    position: relative;
+    padding-bottom: 10px;
+
+}
+
+
+
+._queue{
+    position:relative;
+    padding-bottom: 10px;
+}
+
+._queue ._picQ{
+    position:relative;
+
+}
+
+._queue ._innerTagsQ{
+    position: relative;
+    left: 2.5%;
+
+}
+
+._ringbuffer{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+._ringbuffer ._innerTagsR{
+    position: relative;
+    left: 2.5%;
+
+}
+
+._stack{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+._stack ._innerTagsS{
+    position: relative;
+    left: 2.5%;
+
+}

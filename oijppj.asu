@@ -1,0 +1,478 @@
+%Animal 2 605*659
+{
+  text "Animation-Name" "Datenstruktur: Queue - Enqueue" (25,30) color black depth 1 font SansSerif size 12
+  
+  relRectangle "NamensFeld" (20, 20) (230, 30)  color black depth 1
+  
+}
+{  
+  text "sourceCode[0][0]" "Queue newQueue = new Queue();" (20,212) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[1][0]" "" (20,228) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[2][0]" "." (20,244) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[3][0]" "." (20,260) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[4][0]" "." (20,276) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[5][0]" "" (20,292) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[6][0]" "newQueue.Enqueue( first );" (32,308) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[7][0]" "newQueue.Enqueue( second );" (32,324) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[8][0]" "newQueue.Enqueue( third );" (32,340) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[9][0]" "newQueue.Enqueue( fourth );" (32,356) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[10][0]" "newQueue.Enqueue( fives );" (32,372) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[11][0]" "" (44,388) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[12][0]" "." (20,404) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[13][0]" "." (20,420) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[14][0]" "." (20,436) color black depth 1 font SansSerif size 12
+  
+}
+{  
+  color "sourceCode[0][0]" red
+}
+{  
+  array "String Queue" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 1""  font SansSerif size 12 depth 2
+  
+  text "Text1" "Size of Queue = 0" (500,30) color black depth 1 font SansSerif size 12
+  
+  polyline "Back.ptr" (25,100) (25,140) color black depth 1 fwArrow
+  text "Back" "Back" (8,80) color black depth 1 font SansSerif size 16
+  
+}
+{  
+  color "sourceCode[0][0]" black
+}
+{  
+  color "sourceCode[6][0]" red
+}
+{  
+  text "Text2" "Size of Queue = 1" (500,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray1" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 1"first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (36,100) (36,140) color black depth 1 fwArrow
+  text "Front" "Front" (15,80) color black depth 1 font SansSerif size 16
+  
+  hide "String Queue" "Text1"
+}
+{  
+  color "sourceCode[6][0]" black
+}
+{  
+  color "sourceCode[7][0]" red
+}
+{  
+  text "Text3" "Size of Queue = 2" (500,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray2" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 2"second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (87,100) (87,140) color black depth 1 fwArrow
+  text "Front" "Front" (66,80) color black depth 1 font SansSerif size 16
+  
+  hide "Text2" "StringArray1"
+}
+{  
+  color "sourceCode[7][0]" black
+}
+{  
+  color "sourceCode[8][0]" red
+}
+{  
+  text "Text4" "Size of Queue = 3" (500,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray3" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 3"third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (124,100) (124,140) color black depth 1 fwArrow
+  text "Front" "Front" (103,80) color black depth 1 font SansSerif size 16
+  
+  hide "Text3" "StringArray2"
+}
+{  
+  color "sourceCode[8][0]" black
+}
+{  
+  color "sourceCode[9][0]" red
+}
+{  
+  text "Text5" "Size of Queue = 4" (500,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray4" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 4"fourth" "third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (168,100) (168,140) color black depth 1 fwArrow
+  text "Front" "Front" (147,80) color black depth 1 font SansSerif size 16
+  
+  hide "Text4" "StringArray3"
+}
+{  
+  color "sourceCode[9][0]" black
+}
+{  
+  color "sourceCode[10][0]" red
+}
+{  
+  text "Text6" "Size of Queue = 5" (500,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray5" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 5"fives" "fourth" "third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (204,100) (204,140) color black depth 1 fwArrow
+  text "Front" "Front" (183,80) color black depth 1 font SansSerif size 16
+  
+  hide "Text5" "StringArray4"
+}
+{  
+  color "sourceCode[10][0]" black
+}
+{  
+  color "sourceCode[11][0]" red
+}
+{  
+  text "Text7" "Size of Queue = 6" (500,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray6" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 6"seventh" "fives" "fourth" "third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (258,100) (258,140) color black depth 1 fwArrow
+  text "Front" "Front" (237,80) color black depth 1 font SansSerif size 16
+  
+  hide "Text6" "StringArray5"
+}
+{  
+  color "sourceCode[11][0]" black
+}
+{  
+  color "sourceCode[12][0]" red
+}
+{  
+  text "Text8" "Size of Queue = 7" (500,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray7" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 7"eight" "seventh" "fives" "fourth" "third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (296,100) (296,140) color black depth 1 fwArrow
+  text "Front" "Front" (275,80) color black depth 1 font SansSerif size 16
+  
+  hide "Text7" "StringArray6"
+}
+{  
+  color "sourceCode[12][0]" black
+}
+{  
+}
+{  
+  text "Animation-Name" "%EAX" (300,30) color black depth 1 font SansSerif size 12
+  
+  text "Text1" "%EBX" (300,40) color black depth 1 font SansSerif size 12
+  
+  text "Text2" "" (305,30) color black depth 1 font SansSerif size 12
+  
+  text "Text3" "" (305,40) color black depth 1 font SansSerif size 12
+  
+  text "Text4" "Stack - Arithmetic Expression" (25,30) color black depth 1 font SansSerif size 12
+  
+  relRectangle "NamensFeld" (20, 20) (180, 30)  color black depth 1
+  
+  text "Stack-0" "" (305,256) color black depth 1 font SansSerif size 12
+  
+  relRectangle "Rect1" (300, 250) (200, 50)  color black depth 1
+  
+  text "Stack-1" "" (305,366) color black depth 1 font SansSerif size 12
+  
+  relRectangle "Rect2" (300, 300) (200, 50)  color black depth 1
+  
+  text "Stack-2" "" (305,376) color black depth 1 font SansSerif size 12
+  
+  relRectangle "Rect3" (300, 350) (200, 50)  color black depth 1
+  
+  text "Stack-3" "" (305,386) color black depth 1 font SansSerif size 12
+  
+  relRectangle "Rect4" (300, 400) (200, 50)  color black depth 1
+  
+}
+{  
+  text "sourceCode[0][0]" "" (20,212) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[1][0]" "movl $3, %eax " (20,228) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[2][0]" "movl $1, %ebx " (20,244) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[3][0]" "subl $ebx, %eax" (20,260) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[4][0]" "pushl %eax" (20,276) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[5][0]" "" (20,292) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[6][0]" "movl $2, %ebx " (20,308) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[7][0]" "pop %eax" (20,324) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[8][0]" "idiv $ebx" (20,340) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[9][0]" "pushl %eax" (20,356) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[10][0]" "" (20,372) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[11][0]" "movl $1, %ebx " (20,388) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[12][0]" "pop %eax" (20,404) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[13][0]" "addl $ebx, %eax" (20,420) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[14][0]" "pushl %eax" (20,436) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[15][0]" "" (20,452) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[16][0]" "movl $72, %ebx " (20,468) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[17][0]" "pop %eax" (20,484) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[18][0]" "imull %eax, %ebx, %eax" (20,500) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[19][0]" "pushl %eax" (20,516) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[20][0]" "" (20,532) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[21][0]" "pushl %eax" (20,548) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[22][0]" "pushl $intout" (20,564) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[23][0]" "" (20,580) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[24][0]" "call printf " (20,596) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[25][0]" "movl $1, %eax" (20,612) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[26][0]" "int $0x80" (20,628) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[27][0]" "" (20,644) color black depth 1 font SansSerif size 12
+  
+}
+{  
+  text "Text5" "3" (350,30) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[0][0]" red
+  hide "Text2"
+}
+{  
+  color "sourceCode[0][0]" black
+  color "sourceCode[1][0]" red
+}
+{  
+  text "Text6" "1" (350,40) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[1][0]" black
+  color "sourceCode[2][0]" red
+  hide "Text3"
+}
+{  
+  color "sourceCode[2][0]" red
+}
+{  
+  color "sourceCode[2][0]" black
+  color "sourceCode[3][0]" red
+}
+{  
+  text "Text7" "2" (350,30) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[3][0]" red
+  hide "Text5"
+}
+{  
+  text "Text8" "2" (305,256) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[3][0]" black
+  color "sourceCode[4][0]" red
+  hide "Stack-0"
+}
+{  
+  color "sourceCode[4][0]" red
+}
+{  
+  color "sourceCode[4][0]" black
+  color "sourceCode[5][0]" red
+}
+{  
+  text "Text9" "2" (350,40) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[5][0]" black
+  color "sourceCode[6][0]" red
+  hide "Text6"
+}
+{  
+  color "sourceCode[6][0]" red
+}
+{  
+  color "sourceCode[6][0]" black
+  color "sourceCode[7][0]" red
+}
+{  
+  text "Text10" "2" (350,30) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[7][0]" red
+  hide "Text7"
+}
+{  
+  color "sourceCode[7][0]" black
+  color "sourceCode[8][0]" red
+}
+{  
+  text "Text11" "1" (350,30) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[8][0]" red
+  hide "Text10"
+}
+{  
+  text "Text12" "1" (305,256) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[8][0]" black
+  color "sourceCode[9][0]" red
+  hide "Text8"
+}
+{  
+  color "sourceCode[9][0]" red
+}
+{  
+  color "sourceCode[9][0]" black
+  color "sourceCode[10][0]" red
+}
+{  
+  text "Text13" "1" (350,40) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[10][0]" black
+  color "sourceCode[11][0]" red
+  hide "Text9"
+}
+{  
+  color "sourceCode[11][0]" red
+}
+{  
+  color "sourceCode[11][0]" black
+  color "sourceCode[12][0]" red
+}
+{  
+  text "Text14" "1" (350,30) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[12][0]" red
+  hide "Text11"
+}
+{  
+  color "sourceCode[12][0]" black
+  color "sourceCode[13][0]" red
+}
+{  
+  text "Text15" "2" (350,30) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[13][0]" red
+  hide "Text14"
+}
+{  
+  text "Text16" "2" (305,256) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[13][0]" black
+  color "sourceCode[14][0]" red
+  hide "Text12"
+}
+{  
+  color "sourceCode[14][0]" red
+}
+{  
+  color "sourceCode[14][0]" black
+  color "sourceCode[15][0]" red
+}
+{  
+  text "Text17" "72" (350,40) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[15][0]" black
+  color "sourceCode[16][0]" red
+  hide "Text13"
+}
+{  
+  color "sourceCode[16][0]" red
+}
+{  
+  color "sourceCode[16][0]" black
+  color "sourceCode[17][0]" red
+}
+{  
+  color "sourceCode[17][0]" red
+}
+{  
+  color "sourceCode[17][0]" black
+  color "sourceCode[18][0]" red
+}
+{  
+  color "sourceCode[18][0]" red
+}
+{  
+  text "Text18" "144" (305,256) color black depth 1 font SansSerif size 12
+  
+  color "sourceCode[18][0]" black
+  color "sourceCode[19][0]" red
+  hide "Text16"
+}
+{  
+  color "sourceCode[19][0]" red
+}
+{  
+  color "sourceCode[19][0]" black
+  color "sourceCode[20][0]" red
+}
+{  
+  color "sourceCode[20][0]" red
+}
+{  
+  color "sourceCode[20][0]" black
+  color "sourceCode[21][0]" red
+}
+{  
+  color "sourceCode[21][0]" red
+}
+{  
+  color "sourceCode[21][0]" black
+  color "sourceCode[22][0]" red
+}
+{  
+  color "sourceCode[22][0]" red
+}
+{  
+  color "sourceCode[22][0]" black
+  color "sourceCode[23][0]" red
+}
+{  
+  color "sourceCode[23][0]" red
+}
+{  
+  color "sourceCode[23][0]" black
+  color "sourceCode[24][0]" red
+}
+{  
+  color "sourceCode[24][0]" red
+}
+{  
+  color "sourceCode[24][0]" black
+  color "sourceCode[25][0]" red
+}
+{  
+  color "sourceCode[25][0]" red
+}
+{  
+  color "sourceCode[25][0]" black
+  color "sourceCode[26][0]" red
+}
+{  
+  color "sourceCode[26][0]" red
+}
+{  
+  color "sourceCode[26][0]" black
+  color "sourceCode[27][0]" red
+}
+{  
+  color "sourceCode[27][0]" red
+}

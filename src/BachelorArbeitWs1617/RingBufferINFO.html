@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel</title>
+</head>
+<body>
+<h2> Informationen zu - Datastructure: <b> RingBuffer </b> </h2>
+<img src="_002_RingBuffer.png" alt="KeinBild" width="150" , height="140" />
+<h3> Funktionsweise</h3>
+<p>The useful property of a circular buffer is that it does not need to have its elements shuffled around when one is consumed. </p>
+<p>(If a non-circular buffer were used then it would be necessary to shift all elements when one is consumed.) In other words,</p>
+<p>the circular buffer is well-suited as a FIFO buffer while a standard, non-circular buffer is well suited as a LIFO buffer.</p>
+<p></p>
+<p></p>
+<p>Circular buffering makes a good implementation strategy for a queue that has fixed maximum size. Should a maximum size be </p>
+<p>adopted for a queue, then a circular buffer is a completely ideal implementation; all queue operations are constant time. However, expanding a circular buffer requires </p>
+<p>shifting memory, which is comparatively costly. For arbitrarily expanding queues, a linked list approach may be preferred instead.</p>
+<p></p>
+<p></p>
+<p>In some situations, overwriting circular buffer can be used, e.g. in multimedia. If the buffer is used as the bounded buffer in the producer-consumer problem then it is </p>
+<p>probably desired for the producer (e.g., an audio generator) to overwrite old data if the consumer (e.g., the sound card) is unable to momentarily keep up. Also, the LZ77</p>
+<p>family of lossless data compression algorithms operates on the assumption that strings seen more recently in a data stream are more likely to occur soon in the stream. </p>
+<p>Implementations store the most recent data in a circular buffer.</p>
+<p></p><a href="_Headline-(Abstract_Data_Type).html"> Zurück  </a></p>
+</body>
+</html>

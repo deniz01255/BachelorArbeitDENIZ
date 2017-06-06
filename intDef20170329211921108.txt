@@ -1,0 +1,25 @@
+multipleChoiceQuestion "0"
+    prompt "Which time complexity has the function that adds a value to the list?"
+    numberOfTries 1
+    answer "40e827fe-7772-4ed6-8a6a-b8666071210c"
+        text "O(n)"
+        points 0
+        feedback "Wrong! O(n) would have been correct."
+    endAnswer
+    answer "401e30ab-b38a-4df3-9b5f-5e0dad760d5c"
+        text "O(1)"
+        points 1
+        feedback "Correct!"
+    endAnswer
+    answer "83220378-ab37-472b-983b-a8914758002d"
+        text "O(n²)"
+        points 0
+        feedback "Wrong! O(n) would have been correct."
+    endAnswer
+    answer "2a24b5bf-c052-4c1e-8c8a-c112c1cad8a4"
+        text "O(log(n))"
+        points 0
+        feedback "Wrong! O(n) would have been correct."
+    endAnswer
+endQuestion
+

@@ -1,0 +1,287 @@
+multipleChoiceQuestion "multipleChoiceQuestionfd7ce0a4-51f9-4a2c-8e7f-27d0e9d4d68b"
+    prompt "Welcher Knoten wird als naechstes bearbeitet?"
+    questionGroup "First question group"
+    numberOfTries 1
+    answer "6bef5d29-4841-45f8-945f-65a1062872fb"
+        text "A"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet G da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "4bb3fc10-810f-4dab-b133-90715d415184"
+        text "F"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet G da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "345e868e-fc1a-4f83-b273-51120efdaaee"
+        text "D"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet G da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "69e1334b-eae4-4693-9132-3750e0a3e496"
+        text "C"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet G da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "b40dae89-7530-499a-89de-b73a5f7e7685"
+        text "G"
+        points 1
+        feedback "Genau! =) G ist das erste Elemnt in der Queue!"
+    endAnswer
+    answer "4d97d3c1-90ff-48e7-b8ce-a6a7d33327d8"
+        text "B"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet G da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "6d15c20e-aac2-42a5-b920-c3ce2dd31eb2"
+        text "E"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet G da dies das erste Element in der Queue ist."
+    endAnswer
+endQuestion
+
+multipleChoiceQuestion "multipleChoiceQuestion93ac57a7-9634-4d5d-a3c4-53454047525b"
+    prompt "Welcher Knoten wird als naechstes bearbeitet?"
+    questionGroup "First question group"
+    numberOfTries 1
+    answer "5ed6edab-5b73-4c8c-910b-1f554859e17a"
+        text "D"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet F da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "1f572670-e3c7-4822-8011-33910b41b0d1"
+        text "F"
+        points 1
+        feedback "Genau! =) F ist das erste Elemnt in der Queue!"
+    endAnswer
+    answer "fd4a4275-fd12-496a-bc33-a506599be786"
+        text "C"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet F da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "b8645bec-e2ca-4f7a-b510-181944098433"
+        text "A"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet F da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "2a6908b2-5456-4209-bd14-983288b62d1a"
+        text "B"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet F da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "a4bc182b-2ffc-4d91-9d19-3e177c9f6e56"
+        text "G"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet F da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "aab4335d-5313-4611-9485-3242a1255273"
+        text "E"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet F da dies das erste Element in der Queue ist."
+    endAnswer
+endQuestion
+
+multipleChoiceQuestion "multipleChoiceQuestion33373f42-658e-45fa-8e44-abd4cfc306cf"
+    prompt "Welcher Knoten wird als naechstes bearbeitet?"
+    questionGroup "First question group"
+    numberOfTries 1
+    answer "530111ca-feeb-4d8d-852b-50f2e15f4477"
+        text "B"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet D da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "ad628834-f824-4f7b-b4c3-3ce488aca7d1"
+        text "A"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet D da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "efa06ab2-399e-4329-b66e-c902a37d53d4"
+        text "E"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet D da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "3161559b-54db-416a-b884-02fd55442828"
+        text "D"
+        points 1
+        feedback "Genau! =) D ist das erste Elemnt in der Queue!"
+    endAnswer
+    answer "263678f1-97fa-4128-8aa6-532509bde1a1"
+        text "F"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet D da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "7f6ef524-c087-4772-955a-3340a69e89c7"
+        text "C"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet D da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "2d53ecef-02ca-42de-9d6e-7a348fe46b5a"
+        text "G"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet D da dies das erste Element in der Queue ist."
+    endAnswer
+endQuestion
+
+multipleChoiceQuestion "multipleChoiceQuestionaf0409cc-c497-4f00-a1f3-568a02fd92d0"
+    prompt "Welcher Knoten wird als naechstes bearbeitet?"
+    questionGroup "First question group"
+    numberOfTries 1
+    answer "4934a1b7-092d-40ef-beb4-c3c910d0c829"
+        text "E"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet C da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "3c5347b9-3fe8-4e0e-b263-3e05da26e4fc"
+        text "F"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet C da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "cc439250-80c4-455a-8ee0-116909e8dc4e"
+        text "B"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet C da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "f28c8305-884e-477b-b3bf-6b9d1fe5354c"
+        text "D"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet C da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "f873eea5-a3aa-47a8-80b6-29e1b1b42f82"
+        text "C"
+        points 1
+        feedback "Genau! =) C ist das erste Elemnt in der Queue!"
+    endAnswer
+    answer "2319c735-7d4c-44c2-ad98-97844049a851"
+        text "G"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet C da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "289dd67a-bd89-470b-aa5d-fe5b37bab1d8"
+        text "A"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet C da dies das erste Element in der Queue ist."
+    endAnswer
+endQuestion
+
+multipleChoiceQuestion "multipleChoiceQuestion6bc248d7-af04-47d9-8e2a-6c9946eabbb6"
+    prompt "Welcher Knoten wird als naechstes bearbeitet?"
+    questionGroup "First question group"
+    numberOfTries 1
+    answer "307cabda-5cba-44d9-8848-346595b7cc57"
+        text "C"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet A da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "eceb0f1c-a501-43a3-863c-ea7706f37032"
+        text "B"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet A da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "2725b32d-f218-4477-9ee3-56fe3f3e5fed"
+        text "E"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet A da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "0551b95b-dde7-47eb-bfa6-03046fd15c05"
+        text "D"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet A da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "b890de28-9378-46d5-a20c-5bb4d66e2e84"
+        text "G"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet A da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "349a58d4-e301-4206-842d-59e596f32c34"
+        text "F"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet A da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "969b28ee-6a61-42ca-ad83-93888947c38e"
+        text "A"
+        points 1
+        feedback "Genau! =) A ist das erste Elemnt in der Queue!"
+    endAnswer
+endQuestion
+
+multipleChoiceQuestion "multipleChoiceQuestionbc96a032-3a42-4420-9bb2-8945861163a0"
+    prompt "Welcher Knoten wird als naechstes bearbeitet?"
+    questionGroup "First question group"
+    numberOfTries 1
+    answer "fbb20227-6139-4535-b637-4f870c865a95"
+        text "E"
+        points 1
+        feedback "Genau! =) E ist das erste Elemnt in der Queue!"
+    endAnswer
+    answer "41cb3a74-ce9a-496f-8201-61f5215c5b14"
+        text "C"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet E da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "95e897ef-7701-4417-a88e-4be9d7179d8f"
+        text "A"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet E da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "503080ac-9869-498e-8f40-97ac8b95e1a0"
+        text "G"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet E da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "6b242089-1114-49e0-aa33-3831a0bcfd1c"
+        text "B"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet E da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "90bcd674-3824-4a68-a3f4-b5052806966c"
+        text "F"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet E da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "527b05f6-e599-48ee-99ff-54f8ce1268b7"
+        text "D"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet E da dies das erste Element in der Queue ist."
+    endAnswer
+endQuestion
+
+multipleChoiceQuestion "multipleChoiceQuestion0b9bd761-5753-47a0-801d-eeec05839f12"
+    prompt "Welcher Knoten wird als naechstes bearbeitet?"
+    questionGroup "First question group"
+    numberOfTries 1
+    answer "97c8ed28-b9a8-4d3a-b43c-61039514ffce"
+        text "B"
+        points 1
+        feedback "Genau! =) B ist das erste Elemnt in der Queue!"
+    endAnswer
+    answer "77958f30-308e-4670-9719-a1acc1ab015b"
+        text "D"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet B da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "7b1c5a07-f3b7-4a84-aae3-bca5ae10ce01"
+        text "A"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet B da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "504bacb1-1540-4c75-9aa5-eacbbff34140"
+        text "E"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet B da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "40a609c1-8eb6-4fb0-9805-912ef422ed5c"
+        text "G"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet B da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "1601c3a2-7129-40f9-87f5-d05d0f33b7f3"
+        text "C"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet B da dies das erste Element in der Queue ist."
+    endAnswer
+    answer "128177df-0314-4dcd-857c-7b444bbb5ab3"
+        text "F"
+        points 0
+        feedback "Leider nein! =( Die richtige Antwort lautet B da dies das erste Element in der Queue ist."
+    endAnswer
+endQuestion
+

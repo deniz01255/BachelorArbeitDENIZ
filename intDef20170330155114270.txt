@@ -1,0 +1,96 @@
+multipleSelectionQuestion "sinnUndZweck"
+    prompt "Der Der Algorithmus ist terminiert. Wozu kann das Ergebnis verwendet werden?"
+    numberOfTries 1
+    answer "10c3fc29-6f01-4d45-ae9f-0627d38e8733"
+        text "Kantenbetonung"
+        points -1
+        feedback "Kantenbetonung: FALSCH, die Kanten werden vielmehr leicht verwaschen.
+"
+    endAnswer
+    answer "c2050743-3de8-47b4-bd84-c3210aa80591"
+        text "Rauschunterdrückung"
+        points 1
+        feedback "Rauschunterdrückung: KORREKT, Rauschen durch Mittelwertbildung verringert.
+"
+    endAnswer
+    answer "62db7385-b0e6-4827-b083-83f233e409b6"
+        text "Antialising"
+        points 1
+        feedback "Antialising: KORREKT, die Artefakte können reduziert werden.
+"
+    endAnswer
+    answer "a1656050-0f76-4264-9d26-d1c477922b9e"
+        text "Weichzeichnung"
+        points 1
+        feedback "Weichzeichnung: KORREKT, durch die Mittelwertbildung werden Kanten weicher.
+"
+    endAnswer
+    answer "24b053e4-5eb2-4441-86fa-d7731eab1445"
+        text "Beleuchtungskorrektur"
+        points -1
+        feedback "Beleuchtungskorrektur: FALSCH, der Filter verändert keine Beleuchtungseigenschaften.
+"
+    endAnswer
+    answer "d0ce3cab-24da-4a8d-b05e-71edd725203a"
+        text "Korrektur des Weißabgleiches"
+        points -1
+        feedback "Korrektur des Weißabgleiches: FALSCH, der Weißabgleich (sollte das Bild überhaupt Farbe haben) bleibt unbeeinflusst.
+"
+    endAnswer
+endQuestion
+
+multipleChoiceQuestion "komplexitaet"
+    prompt "Welche Komplexitaet besitzt der hier vorgestellte Gauss Filter?"
+    numberOfTries 1
+    answer "b79131f2-60a9-43bc-9731-c5520d8901bf"
+        text "O(1)"
+        points 0
+        feedback "Falsch! Jedes Feld muss 1 Mal behandelt werden. Daher ist die Komplexitaet O(breite*hoehe)"
+    endAnswer
+    answer "9f98ebaa-b72a-4f79-9133-7eded3b261ee"
+        text "O(breite*hoehe)"
+        points 1
+        feedback "Richtig! Jedes Feld muss 1 Mal behandelt werden. Daher ist die Komplexitaet O(breite*hoehe)"
+    endAnswer
+    answer "f8ef5783-7479-4383-b0e6-964f46698886"
+        text "O(breite)"
+        points 0
+        feedback "Falsch! Jedes Feld muss 1 Mal behandelt werden. Daher ist die Komplexitaet O(breite*hoehe)"
+    endAnswer
+    answer "8e5f66c3-c03e-4f5c-8261-049d97c5f2af"
+        text "O(hoehe)"
+        points 0
+        feedback "Falsch! Jedes Feld muss 1 Mal behandelt werden. Daher ist die Komplexitaet O(breite*hoehe)"
+    endAnswer
+    answer "3a4c93cd-7cb0-4aa5-9e72-c8294afc8059"
+        text "O((breite*hoehe)^2)"
+        points 0
+        feedback "Falsch! Jedes Feld muss 1 Mal behandelt werden. Daher ist die Komplexitaet O(breite*hoehe)"
+    endAnswer
+endQuestion
+
+fillInBlanksQuestion "nextValue"
+    prompt "welcher Wert wird in das nächste DST-Feld eingetragen?"
+    numberOfTries 1
+    answer "3382950e-e656-4cc0-a77e-e712182d5b82"
+        text "157"
+        points 1
+        feedback "sum/9 = 157"
+    endAnswer
+endQuestion
+
+trueFalseQuestion "reihenfolge"
+    prompt "Ist es wichtig, in welcher Reihenfolge das SRC Array durchlaufen wird?"
+    numberOfTries 1
+    answer "true"
+        text "right"
+        points 0
+        feedback "Das Array SRC wird nicht verändert. Daher ist die Reihenfolge für das Iterieren egal."
+    endAnswer
+    answer "false"
+        text "wrong"
+        points 1
+        feedback "Das Array SRC wird nicht verändert. Daher ist die Reihenfolge für das Iterieren egal."
+    endAnswer
+endQuestion
+

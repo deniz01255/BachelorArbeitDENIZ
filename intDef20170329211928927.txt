@@ -1,0 +1,25 @@
+multipleChoiceQuestion "1"
+    prompt "Which time complexity has the function that searches and removes a value from the list?"
+    numberOfTries 1
+    answer "c63ceed1-8488-4c44-ad87-53c51135d7d2"
+        text "O(1)"
+        points 0
+        feedback "null"
+    endAnswer
+    answer "1e752bba-b2ae-4cb8-8d47-1d4fce774f3a"
+        text "O(n²)"
+        points 0
+        feedback "null"
+    endAnswer
+    answer "32fe3d05-b530-4aa9-a4a0-6c96b3eaae95"
+        text "O(log(n))"
+        points 0
+        feedback "null"
+    endAnswer
+    answer "3b7c2f54-2854-448c-bcb5-500c2a262ad4"
+        text "O(n)"
+        points 1
+        feedback "Correct!"
+    endAnswer
+endQuestion
+

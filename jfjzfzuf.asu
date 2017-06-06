@@ -1,0 +1,143 @@
+%Animal 2 472*451
+{
+  text "Animation-Name" "Datenstruktur: Queue - Enqueue" (25,30) color black depth 1 font SansSerif size 12
+  
+  relRectangle "NamensFeld" (20, 20) (230, 30)  color black depth 1
+  
+}
+{  
+  text "sourceCode[0][0]" "Queue newQueue = new Queue();" (20,212) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[1][0]" "" (20,228) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[2][0]" "." (20,244) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[3][0]" "." (20,260) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[4][0]" "." (20,276) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[5][0]" "" (20,292) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[6][0]" "newQueue.Enqueue( first );" (32,308) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[7][0]" "newQueue.Enqueue( second );" (32,324) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[8][0]" "newQueue.Enqueue( third );" (32,340) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[9][0]" "newQueue.Enqueue( fourth );" (32,356) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[10][0]" "newQueue.Enqueue( fifth );" (32,372) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[11][0]" "" (44,388) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[12][0]" "." (20,404) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[13][0]" "." (20,420) color black depth 1 font SansSerif size 12
+  
+  text "sourceCode[14][0]" "." (20,436) color black depth 1 font SansSerif size 12
+  
+}
+{  
+  color "sourceCode[0][0]" red
+}
+{  
+  array "String Queue" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 1""  font SansSerif size 12 depth 2
+  
+  text "Text3" "Size of Queue = 0" (300,30) color black depth 1 font SansSerif size 12
+  
+  text "ArrowFront" "Front Sign: MAGENTA - Arrow" (300,50) color black depth 1 font SansSerif size 12
+  
+  text "ArrowBack" "Back Sign: RED - Arrow" (300,70) color black depth 1 font SansSerif size 12
+  
+  polyline "Front.ptr" (25,100) (25,140) color magenta depth 1 fwArrow
+  text "Front" "Front" (4,80) color magenta depth 1 font SansSerif size 16
+  
+  polyline "Back.ptr" (25,100) (25,140) color red depth 1 fwArrow
+  text "Back" "Back" (8,80) color red depth 1 font SansSerif size 16
+  
+}
+{  
+  color "sourceCode[0][0]" black
+}
+{  
+  color "sourceCode[6][0]" red
+}
+{  
+  text "Text4" "Size of Queue = 1" (300,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray1" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 1"first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (36,100) (36,140) color magenta depth 1 fwArrow
+  text "Front" "Front" (15,80) color magenta depth 1 font SansSerif size 16
+  
+  hide "String Queue" "Text3" "Front" "Front.ptr"
+}
+{  
+  color "sourceCode[6][0]" black
+}
+{  
+  color "sourceCode[7][0]" red
+}
+{  
+  text "Text5" "Size of Queue = 2" (300,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray2" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 2"second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (87,100) (87,140) color magenta depth 1 fwArrow
+  text "Front" "Front" (66,80) color magenta depth 1 font SansSerif size 16
+  
+  hide "Text4" "StringArray1" "Front" "Front.ptr"
+}
+{  
+  color "sourceCode[7][0]" black
+}
+{  
+  color "sourceCode[8][0]" red
+}
+{  
+  text "Text6" "Size of Queue = 3" (300,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray3" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 3"third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (124,100) (124,140) color magenta depth 1 fwArrow
+  text "Front" "Front" (103,80) color magenta depth 1 font SansSerif size 16
+  
+  hide "Text5" "StringArray2" "Front" "Front.ptr"
+}
+{  
+  color "sourceCode[8][0]" black
+}
+{  
+  color "sourceCode[9][0]" red
+}
+{  
+  text "Text7" "Size of Queue = 4" (300,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray4" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 4"fourth" "third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (168,100) (168,140) color magenta depth 1 fwArrow
+  text "Front" "Front" (147,80) color magenta depth 1 font SansSerif size 16
+  
+  hide "Text6" "StringArray3" "Front" "Front.ptr"
+}
+{  
+  color "sourceCode[9][0]" black
+}
+{  
+  color "sourceCode[10][0]" red
+}
+{  
+  text "Text8" "Size of Queue = 5" (300,30) color black depth 1 font SansSerif size 12
+  
+  array "StringArray5" (20,140) color black fillColor white elementColor black elemHighlight red cellHighlight yellow length 5"fifth" "fourth" "third" "second" "first"  font SansSerif size 12 depth 2
+  
+  polyline "Front.ptr" (200,100) (200,140) color magenta depth 1 fwArrow
+  text "Front" "Front" (179,80) color magenta depth 1 font SansSerif size 16
+  
+  hide "Text7" "StringArray4" "Front" "Front.ptr"
+}
+{  
+  color "sourceCode[10][0]" black
+}
+{  
+}

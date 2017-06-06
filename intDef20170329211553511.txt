@@ -1,0 +1,25 @@
+multipleChoiceQuestion "1"
+    prompt "Welches Laufzeitverhalten hat die funktion, die ein Element in der Liste sucht und entfernt?"
+    numberOfTries 1
+    answer "f7e207b2-335d-4a21-b2ca-87ff0ab67877"
+        text "O(n²)"
+        points 0
+        feedback "Falsch! Richtig wäre O(n) gewesen."
+    endAnswer
+    answer "5928a5a3-1d23-4077-bb84-9518ebb6cd27"
+        text "O(1)"
+        points 0
+        feedback "Falsch! Richtig wäre O(n) gewesen."
+    endAnswer
+    answer "3efe032b-1052-4d04-bfe4-8d60325b1ac8"
+        text "O(log(n))"
+        points 0
+        feedback "Falsch! Richtig wäre O(n) gewesen."
+    endAnswer
+    answer "7080be90-888b-4dd5-9fc0-70209315d64e"
+        text "O(n)"
+        points 1
+        feedback "Richtig!"
+    endAnswer
+endQuestion
+

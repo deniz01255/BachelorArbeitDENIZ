@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GuiBachelorarbeit:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GuiBachelorarbeit_jar</output-path>
+    <root id="archive" name="GuiBachelorarbeit.jar">
+      <element id="module-output" name="GuiBachelorarbeit" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../BachelorGENERATOR.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/miglayout-4.0.jar" path-in-jar="/" />
+      <element id="library" level="application" name="src" />
+      <element id="library" level="application" name="BachelorStackGENERATOR" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Animal.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-math3-3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-jexl-2.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jdom.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

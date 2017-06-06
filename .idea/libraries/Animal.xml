@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Animal">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/Animal.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Animal.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/GIT GUIDO/gr26fabi-animal-av" />
+    </SOURCES>
+  </library>
+</component>

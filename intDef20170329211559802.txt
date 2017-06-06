@@ -1,0 +1,15 @@
+multipleChoiceQuestion "2"
+    prompt "Ist es mit doppelt verketteten Listen möglich eine Warteschlange zu implementieren, die ein Laufzeitverhalten von O(1) hat?"
+    numberOfTries 1
+    answer "6808058f-99e1-46ed-9d6f-28afb42a9c81"
+        text "Ja"
+        points 1
+        feedback "Richtig!"
+    endAnswer
+    answer "9be16ebb-4a37-495b-a8c4-dc0aae4dd683"
+        text "Nein"
+        points 0
+        feedback "Falsch! Es ist möglich."
+    endAnswer
+endQuestion
+

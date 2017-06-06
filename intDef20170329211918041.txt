@@ -1,0 +1,25 @@
+multipleChoiceQuestion "3"
+    prompt "Which time complexity would have a function that concatenates two doubly linked lists?"
+    numberOfTries 1
+    answer "45cf97e3-16b4-4404-9b01-46b2a1972386"
+        text "O(n)"
+        points 0
+        feedback "Wrong! O(n) would have been correct."
+    endAnswer
+    answer "01114415-42d5-483d-b1bb-a7fccb33c25c"
+        text "O(n²)"
+        points 0
+        feedback "Wrong! O(n) would have been correct."
+    endAnswer
+    answer "f2453b48-f14f-4d37-a7fb-53a67f6e1f71"
+        text "O(1)"
+        points 1
+        feedback "Correct!"
+    endAnswer
+    answer "a225d049-0ebc-46ff-9422-d5deefeab8d0"
+        text "O(log(n))"
+        points 0
+        feedback "Wrong! O(n) would have been correct."
+    endAnswer
+endQuestion
+
